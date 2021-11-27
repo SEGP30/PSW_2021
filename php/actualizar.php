@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Actualizar - PCElectronics - Inventario</title>
+    <title>Actualizar - PC Electronics - Inventario</title>
 </head>
 <body>
 
@@ -23,7 +23,7 @@
     $c = $_POST['cantidadProductoU'];
 
 
-    $sql = "UPDATE productos SET  nombre = '$n', marca = '$m', precio = '$p', cantidad = '$c'  WHERE codigo = '$cod'";
+    $sql = "UPDATE tabla04 SET  nombre = '$n', marca = '$m', precio = '$p', cantidad = '$c'  WHERE codigo = '$cod'";
 
     if (mysqli_query($conn, $sql)) {
 

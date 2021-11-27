@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Consultar - PCElectronics - Inventario</title>
+    <title>Consultar - PC Electronics - Inventario</title>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
     $cod = $_POST['codigoProductoQ'];
 
 
-    $sql = "SELECT * FROM productos WHERE codigo = $cod";
+    $sql = "SELECT * FROM tabla04 WHERE codigo = $cod";
     $resultado = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($resultado) > 0) {

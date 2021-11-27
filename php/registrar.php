@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/styles.css">
-    <title>Registrar - PCElectronics - Inventario</title>
+    <title>Registrar - PC Electronics - Inventario</title>
 </head>
 <body>
 
@@ -22,7 +22,7 @@
     $p = $_POST['precioProductoR'];
     $c = $_POST['cantidadProductoR'];
 
-    $sql = "INSERT INTO productos (codigo, nombre, marca, precio, cantidad) VALUES ('$cod', '$n', '$m', '$p', '$c')";
+    $sql = "INSERT INTO tabla04 (codigo, nombre, marca, precio, cantidad) VALUES ('$cod', '$n', '$m', '$p', '$c')";
 
     if (mysqli_query($conn, $sql)) {
 

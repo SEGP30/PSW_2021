@@ -26,7 +26,7 @@ $pdf->Ln(10);
 $pdf->SetFont('Arial','',8);
 
 
-$query_select = 'SELECT * FROM productos';
+$query_select = 'SELECT * FROM tabla04';
 $resultado = mysqli_query($conn, $query_select);
 
 if (mysqli_num_rows($resultado) > 0) {

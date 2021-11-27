@@ -17,7 +17,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "12345678";
-        $dbname = "bdpsw2021";
+        $dbname = "bdunad04";
 
         // Cadena de conexión
         $conn = mysqli_connect($servername, $username, $password,  $dbname);
@@ -53,7 +53,7 @@
         }
 
         // Comando sql para crear la tabla
-        $sql = "CREATE TABLE productos (
+        $sql = "CREATE TABLE tabla04 (
         codigo INT(10) PRIMARY KEY,
         nombre VARCHAR(30),
         marca VARCHAR(20),

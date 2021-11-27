@@ -51,7 +51,7 @@
         }
 
         // Creación de la base de datos
-        $sql = "CREATE DATABASE bdpsw2021";
+        $sql = "CREATE DATABASE bdunad04";
 
         if (mysqli_query($conn, $sql)) {
 

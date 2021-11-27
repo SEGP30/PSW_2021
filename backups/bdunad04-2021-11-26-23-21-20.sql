@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.17, for Win64 (x86_64)
 --
--- Host: localhost    Database: bdpsw2021
+-- Host: localhost    Database: bdunad04
 -- ------------------------------------------------------
 -- Server version	8.0.17
 
@@ -16,13 +16,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `productos`
+-- Table structure for table `tabla04`
 --
 
-DROP TABLE IF EXISTS `productos`;
+DROP TABLE IF EXISTS `tabla04`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `productos` (
+CREATE TABLE `tabla04` (
   `codigo` int(10) NOT NULL,
   `nombre` varchar(30) DEFAULT NULL,
   `marca` varchar(20) DEFAULT NULL,
@@ -33,12 +33,13 @@ CREATE TABLE `productos` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `productos`
+-- Dumping data for table `tabla04`
 --
 
-LOCK TABLES `productos` WRITE;
-/*!40000 ALTER TABLE `productos` DISABLE KEYS */;
-/*!40000 ALTER TABLE `productos` ENABLE KEYS */;
+LOCK TABLES `tabla04` WRITE;
+/*!40000 ALTER TABLE `tabla04` DISABLE KEYS */;
+INSERT INTO `tabla04` VALUES (123456,'Memoria RAM 12 GB','Corsair',250000,30),(788901,'Procesador 3600X','AMD Ryzen',1000000,10);
+/*!40000 ALTER TABLE `tabla04` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-11-26 21:09:47
+-- Dump completed on 2021-11-26 23:21:20

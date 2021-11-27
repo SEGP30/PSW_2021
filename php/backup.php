@@ -17,7 +17,6 @@
      date_default_timezone_set("America/Bogota");
      require('config.php');
 
-     //Para utilizar Mysqldump y realizar el respaldo, se debe declarar una variable haciendo referencia a la ubicación del archivo mysqldump.exe
      $mysqldump='"../../../MySQL/bin/mysqldump.exe"';
      $backup_file = '"../backups/"'.$dbname. "-" .date("Y-m-d-H-i-s"). ".sql";
      system("$mysqldump --no-defaults -u $username -p$password $dbname > $backup_file", $output);

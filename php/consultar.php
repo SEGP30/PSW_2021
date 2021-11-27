@@ -73,7 +73,7 @@
                     <div class="modal-body">
 
                     <?php
-                        echo "Este producto no está registrado. Verifique el código" . "<br>";
+                        echo "Este producto no está registrado. Verifique el código." . "<br>";
                     ?>
 
                     </div>

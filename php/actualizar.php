@@ -68,7 +68,7 @@
                     <div class="modal-body">
 
                     <?php
-                    echo "Error actualizando la información " . "<br>". mysqli_error($conn);
+                    echo "Error actualizando la información: " . "<br>". mysqli_error($conn);
                     ?>
 
                     </div>

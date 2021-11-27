@@ -6,8 +6,6 @@ const conversorUnity = () => {
     let selectUnityTwo = document.getElementById('selectUnityTwo').value;
     let result = 0;
 
-    const euler = 2.71828;
-
     if (selectUnity == 0 && selectUnityTwo ==1){
         result = valueOne / 1024;
     }else if (selectUnity == 0 && selectUnityTwo ==0){

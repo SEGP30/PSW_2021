@@ -1,4 +1,71 @@
-/* Show it is fixed to the top */
 body {
+    font-family: Poppins, Serif;
     padding-top: 4.5rem;
   }
+
+/*------------------Main---------------*/
+.inicio{
+    display: flex;
+}
+
+.portada{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 5px solid blue;
+}
+.fa-database{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.descripción, .grupo{
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar{
+    font-weight: bold;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: blue;
+}
+
+.nav-link:hover{
+    color: darkblue;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: blue;
+}
+
+.btn-primary:hover{
+    background-color: mediumblue;
+}
+
+.btn-primary:focus{
+    background-color: midnightblue;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
